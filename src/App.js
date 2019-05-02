@@ -38,9 +38,15 @@ const App = () => (
 )
 const AppContainer = styled.div`
   background: linear-gradient(to bottom right, aliceblue, black);
+  height: 100%;
+  width: 100%;
 `;
 const Navbottom = styled.div`
   background: #2d4d7f;
+  height: 100% ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
 `;
 
 export default App;
