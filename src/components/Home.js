@@ -8,6 +8,9 @@ import Stairs from './stairs.jpeg'
 
 const Home = () => (
   <>
+      <Segment as={Transparent}>
+        {/* <Header as="h2" textAlign="center">My Projects</Header> */}
+      </Segment>
       <Segment color='blue' style={{color: '#2d4d7f'}}>
         <Header as="h2" textAlign="center">My Projects</Header>
       </Segment>
@@ -29,8 +32,9 @@ const GridStyle = {
   backgroundColor: `#eee`,
 }
 
-const AppContainer = styled.div`
-  background: linear-gradient(to bottom right, aliceblue, black);
+const Transparent = styled.div`
+  background: transparent !important;
 `;
+
 
 export default Home;
