@@ -13,12 +13,14 @@ import {Container} from 'semantic-ui-react'
 
 
 
+
 const App = () => (
   
   <div > 
     <NavBar/>
     <AppContainer>
     <Container>
+      <Navbottom>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/navbar" component={NavBar} />
@@ -28,12 +30,17 @@ const App = () => (
 
         <Route component={NoMatch} />
       </Switch>
+      </Navbottom>
     </Container>
+        
     </AppContainer>
   </div>
 )
 const AppContainer = styled.div`
   background: linear-gradient(to bottom right, aliceblue, black);
+`;
+const Navbottom = styled.div`
+  background: #2d4d7f;
 `;
 
 export default App;

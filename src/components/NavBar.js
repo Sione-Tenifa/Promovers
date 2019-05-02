@@ -8,7 +8,7 @@ import './navbar.css'
 class NavBar extends React.Component {
   render() {
     return (
-
+      <>
       <Navbar class='navbar' collapseOnSelect expand="md" bg="dark" variant="dark">
         <Link to='/'>
         <Navbar.Brand>Z-KASA</Navbar.Brand>
@@ -37,6 +37,10 @@ class NavBar extends React.Component {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+      {/* <Navbar bg="primary" variant="dark">
+
+      </Navbar> */}
+      </>
     )
   }
 }
