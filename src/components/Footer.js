@@ -53,43 +53,16 @@ class Footer extends React.Component {
                   style={{ textAlign: "center" }}
                 >
                   <HeadStyle class="ui header" style={{ fontFamily: `'Exo 2', sans-serif`}}> About Us </HeadStyle>
-                  <div class="ui link list">
-                    {/* <Link to='./ApplicationsForm' style={{ color: "white" }} class="item">
-                      {" "}
-                      Apply Now
-                    </Link>
-                    <Link to='./DPLScholarships' style={{ color: "white" }} class="item">
-                      {" "}
-                      Scholarships
-                    </Link>
-                    <Link to='./ContactUs' style={{ color: "white" }} class="item">
-                      {" "}
-                      Contact Us
-                    </Link> */}
-
-                  </div>
+        
                 </ColumnStyle2>
                 <ColumnStyle3
                   class="three wide column"
                   style={{ textAlign: "center" }}
                 >
                   <HeadStyle class="ui header" style={{ fontFamily: `'Exo 2', sans-serif`}}> Our Work </HeadStyle>
-                  {/* <div class="ui link list">
-                    <a href="https://www.meetup.com/devpoint-labs/" style={{ color: "white" }} class="item">
-                      {" "}
-                      Events
-                    </a>
-                    <a href="https://devpointlabs.tumblr.com/" style={{ color: "white" }} class="item">
-                      {" "}
-                      Blog
-                    </a>
-                    <a href="https://devpointlabs.bigcartel.com/" style={{ color: "white" }} class="item">
-                      {" "}
-                      Shop
-                    </a>
-                  </div> */}
+            
                 </ColumnStyle3>
-                <ColumnStyle4
+                {/* <ColumnStyle4
                   class="three wide column"
                   style={{ textAlign: "center" }}
                 >
@@ -98,7 +71,7 @@ class Footer extends React.Component {
                     {" "}
                   </HeadStyle>
                   
-                </ColumnStyle4>
+                </ColumnStyle4> */}
               </div>
             </div>
           </div>
@@ -138,8 +111,7 @@ const AppContainer = styled.div`
   align-items: center
   width: 100%;
   background-color: 
-
-    ${colors.darkPurp}!important;
+  ${colors.darkPurp}!important;
 `;
 
 const ColumnStyle1 = styled.div`

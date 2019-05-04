@@ -30,7 +30,10 @@ class NavBar extends React.Component {
             </NavDropdown>
           </Nav>
           <Nav>
+            <Link to='/contact'>
             <Nav.Link href="#deets">Contact</Nav.Link>
+            </Link>
+
             <Nav.Link eventKey={2} href="#memes">
               Call 801-910-4715
             </Nav.Link>
