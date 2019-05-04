@@ -13,7 +13,7 @@ const Home = () => (
         {/* <Header as="h2" textAlign="center">My Projects</Header> */}
       </Segment>
       <Segment color='blue' style={{color: '#2d4d7f'}}>
-        <Header as="h2" textAlign="center">My Projects</Header>
+        <Header as="h2" textAlign="center">ZKASA Concrete</Header>
       </Segment>
       <div>
 
