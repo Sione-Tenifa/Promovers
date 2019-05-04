@@ -1,9 +1,11 @@
 import React from 'react';
-import { Grid, Container, Image, Segment, Header } from 'semantic-ui-react';
+import { Grid, Container, Button, Image, Segment, Header } from 'semantic-ui-react';
 import {Link,} from 'react-router-dom'
 import styled from 'styled-components'
 import Stairs from '../Images/stairs.jpeg'
 import Footer from './Footer'
+import Jumbotron from 'react-bootstrap/Jumbotron'
+
 
 
 
@@ -14,6 +16,18 @@ const Home = () => (
       </Segment>
       <Segment color='blue' style={{color: '#2d4d7f'}}>
         <Header as="h2" textAlign="center">ZKASA Concrete</Header>
+        <Jumbotron>
+          <h1>Concrete is what we do!</h1>
+          <ul>
+          <p>
+          Building it better in concrete.
+          </p>
+          </ul>
+            
+          {/* <p>
+            <Button variant="primary">Learn more</Button>
+          </p> */}
+        </Jumbotron>
       </Segment>
       <div>
 

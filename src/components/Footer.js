@@ -12,7 +12,6 @@ class Footer extends React.Component {
             <div class="ui center aligned container">
               <div class="ui stackable divided grid">
                 
-                  {/* <Image  width="60px" /> */}
                   <p
                     style={{
                       textAlign: "left",
@@ -21,7 +20,7 @@ class Footer extends React.Component {
                       color: "white"
                     }}
                   >
-                    {" "}
+                    {/* {" "} */}
                     All rights reserved.
                     <br /> ©2019 ZKASA
                   </p>
@@ -30,21 +29,10 @@ class Footer extends React.Component {
                   class="three wide column"
                   style={{ textAlign: "center" }}
                 >
+                  <Link to='/contact'>
                   <HeadStyle class="ui header" style={{ fontFamily: `'Exo 2', sans-serif`}}> Contact </HeadStyle>
+                  </Link>
                   <div class="ui link list">
-                  
-                    {/* <Link to='./FullTimeUtah' style={{ color: "white" }} class="item">
-                      {" "}
-                      Full Time Utah
-                    </Link>
-                    <Link to='./PartTimeUtah' style={{ color: "white" }} class="item">
-                      {" "}
-                      Part Time Utah
-                    </Link>
-                    <Link to='./PartTimeLV' style={{ color: "white" }} class="item">
-                      {" "}
-                      Part Time Las Vegas
-                    </Link> */}
                   
                   </div>
                 </ColumnStyle1>
@@ -52,26 +40,20 @@ class Footer extends React.Component {
                   class="three wide column"
                   style={{ textAlign: "center" }}
                 >
+                  <Link to='/aboutus'>
                   <HeadStyle class="ui header" style={{ fontFamily: `'Exo 2', sans-serif`}}> About Us </HeadStyle>
+                  </Link>
         
                 </ColumnStyle2>
                 <ColumnStyle3
                   class="three wide column"
                   style={{ textAlign: "center" }}
                 >
+                  <Link to='/ourwork'>
                   <HeadStyle class="ui header" style={{ fontFamily: `'Exo 2', sans-serif`}}> Our Work </HeadStyle>
+                  </Link>
             
                 </ColumnStyle3>
-                {/* <ColumnStyle4
-                  class="three wide column"
-                  style={{ textAlign: "center" }}
-                >
-                  <HeadStyle style={{ color: "white" }} class="ui header">
-                    {" "}
-                    {" "}
-                  </HeadStyle>
-                  
-                </ColumnStyle4> */}
               </div>
             </div>
           </div>
