@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Container, Image, Segment, Header } from 'semantic-ui-react';
 import {Link,} from 'react-router-dom'
 import styled from 'styled-components'
-import Stairs from './stairs.jpeg'
+import Stairs from '../Images/stairs.jpeg'
 import Footer from './Footer'
 
 
