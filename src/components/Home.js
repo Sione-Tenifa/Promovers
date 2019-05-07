@@ -5,6 +5,8 @@ import styled from 'styled-components'
 import Stairs from '../Images/stairs.jpeg'
 import Footer from './Footer'
 import Jumbotron from 'react-bootstrap/Jumbotron'
+import Insur from '../Images/insur.jpeg'
+
 
 
 
@@ -25,10 +27,6 @@ const Home = () => (
          
 
           </ul>
-            
-          {/* <p>
-            <Button variant="primary">Learn more</Button>
-          </p> */}
         </Jumbotron>
       </Segment>
       <div>
@@ -36,6 +34,8 @@ const Home = () => (
       <Segment>
         <Header as="h2" textAlign="center">Contact</Header>
         <Image  centered src={Stairs}/>
+        <Image  centered src={Insur}/>
+
       </Segment>
       <Footer />
       </div>

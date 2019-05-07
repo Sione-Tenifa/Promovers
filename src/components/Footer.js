@@ -2,6 +2,8 @@ import React from "react";
 import { Image } from "semantic-ui-react";
 import styled from "styled-components";
 import { Link } from 'react-router-dom'
+import Logo from '../Images/zkasalogo.jpeg'
+
 
 class Footer extends React.Component {
   render() {
@@ -52,8 +54,14 @@ class Footer extends React.Component {
                   <Link to='/ourwork'>
                   <HeadStyle class="ui header" style={{ fontFamily: `'Exo 2', sans-serif`}}> Our Work </HeadStyle>
                   </Link>
+                  
             
                 </ColumnStyle3>
+                <ColumnStyle4>
+                  <div class='logo'>
+                    <Image src={Logo}/>
+                  </div>
+                </ColumnStyle4>
               </div>
             </div>
           </div>

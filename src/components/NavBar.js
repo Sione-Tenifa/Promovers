@@ -4,6 +4,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 import Nav from 'react-bootstrap/Nav'
 import {Link,} from 'react-router-dom'
 import './navbar.css'
+import {Image,} from 'semantic-ui-react'
+import Logo from '../Images/zkasalogo.jpeg'
 
 class NavBar extends React.Component {
   render() {
@@ -17,35 +19,36 @@ class NavBar extends React.Component {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-              <Link to='/contact'>
+              {/* <Link to='/contact'>
               <NavDropdown.Item href="contact">Request a Bid</NavDropdown.Item>
-              </Link>
+              </Link> */}
               <Link to='/ourwork'>
               <NavDropdown.Item href="ourwork">Our Work</NavDropdown.Item>
               </Link>
-              <NavDropdown.Divider />
+              {/* <NavDropdown.Divider />
               <Link to='/aboutus'>
               <NavDropdown.Item href="#action/3.4">About Us</NavDropdown.Item>
-              </Link>
+              </Link> */}
             </NavDropdown>
           </Nav>
+          <div class='logo'>
+                <Image src={Logo}/>
+          </div>
           <Nav>
-            <Link to='/contact'>
-            <Nav.Link href="#deets">Contact</Nav.Link>
-            </Link>
+            {/* <Link to='/contact'> */}
+            <Nav.Link>Contact</Nav.Link>
+            {/* </Link> */}
 
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link eventKey={2} >
               Call 801-910-4715
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      {/* <Navbar bg="primary" variant="dark">
-
-      </Navbar> */}
       </>
     )
   }
 }
+
 
 export default NavBar
