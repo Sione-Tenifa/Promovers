@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Stairs from '../Images/stairs.jpeg'
 import Footer from './Footer'
 import Jumbotron from 'react-bootstrap/Jumbotron'
-import Insur from '../Images/insur.jpeg'
+import Logo from '../Images/whitepro.jpeg'
 
 
 
@@ -34,7 +34,7 @@ const Home = () => (
       <Segment>
         <Header as="h2" textAlign="center">Contact</Header>
         <Image  centered src={Stairs}/>
-        <Image  centered src={Insur}/>
+        <Image  centered src={Logo}/>
 
       </Segment>
       <Footer />

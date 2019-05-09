@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav'
 import {Link,} from 'react-router-dom'
 import './navbar.css'
 import {Image,} from 'semantic-ui-react'
-import Logo from '../Images/zkasalogo.jpeg'
+import Logo from '../Images/Proheader.jpeg'
 
 class NavBar extends React.Component {
   render() {
@@ -13,7 +13,7 @@ class NavBar extends React.Component {
       <>
       <Navbar class='navbar' collapseOnSelect expand="md" bg="dark" variant="dark">
         <Link to='/'>
-        <Navbar.Brand>Z-KASA</Navbar.Brand>
+        <Navbar.Brand>Pro Movers</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

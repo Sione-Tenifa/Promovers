@@ -2,7 +2,7 @@ import React from "react";
 import { Image, Divider } from "semantic-ui-react";
 import styled from "styled-components";
 import { Link } from 'react-router-dom'
-import Logo from '../Images/zkasalogo.jpeg'
+import Logo from '../Images/whitepro.jpeg'
 
 
 class Footer extends React.Component {
@@ -24,7 +24,7 @@ class Footer extends React.Component {
                   >
                     {/* {" "} */}
                     All rights reserved.
-                    <br /> ©2019 ZKASA
+                    <br /> ©2019 Pro Movers
                   </p>
                 
                 <ColumnStyle1
