@@ -19,10 +19,25 @@ const Home = () => (
         
       </Segment>
       <Segment color='blue' style={{color: '#2d4d7f'}}>
-        <div class='logo' textAlign='center'>
-          <Image  centered src={Logo}/> 
-          <Header> Reliable, Fair, Equality</Header>
-        </div>
+        {/* <div class='logo' textAlign='center'> */}
+          <Grid columns='four' divided>
+            <Grid.Row>
+              <Grid.Column textAlign='center'>
+                <Image  centered src={Logo}/> 
+              </Grid.Column>
+              <Grid.Column textAlign='center'>
+                <Header> Reliable</Header>
+              </Grid.Column>
+              <Grid.Column textAlign='center'>
+                <Header> Fair</Header>
+              </Grid.Column>
+              <Grid.Column textAlign='center'>
+                <Header> Equality</Header>
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>
+
+        {/* </div> */}
         <Jumbotron>
           <h1>Moving is what we do!</h1>
           <ul>
