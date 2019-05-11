@@ -1,8 +1,8 @@
 import React from "react";
 import { Image, Divider } from "semantic-ui-react";
 import styled from "styled-components";
-import { Link } from 'react-router-dom'
-import Logo from '../Images/whitepro.jpeg'
+// import { Link } from 'react-router-dom'
+import Logo from '../Images/blackpro.jpeg'
 
 
 class Footer extends React.Component {
@@ -31,9 +31,9 @@ class Footer extends React.Component {
                   class="three wide column"
                   style={{ textAlign: "center" }}
                 >
-                  <Link to='/contact'>
+                  {/* <Link to='/contact'> */}
                   <HeadStyle class="ui header" style={{ fontFamily: `'Exo 2', sans-serif`}}> Contact </HeadStyle>
-                  </Link>
+                  {/* </Link> */}
                   <div class="ui link list">
                   
                   </div>
@@ -42,23 +42,23 @@ class Footer extends React.Component {
                   class="three wide column"
                   style={{ textAlign: "center" }}
                 >
-                  <Link to='/aboutus'>
+                  {/* <Link to='/aboutus'> */}
                   <HeadStyle class="ui header" style={{ fontFamily: `'Exo 2', sans-serif`}}> About Us </HeadStyle>
-                  </Link>
+                  {/* </Link> */}
         
                 </ColumnStyle2>
                 <ColumnStyle3
                   class="three wide column"
                   style={{ textAlign: "center" }}
                 >
-                  <Link to='/ourwork'>
+                  {/* <Link to='/ourwork'> */}
                   <HeadStyle class="ui header" style={{ fontFamily: `'Exo 2', sans-serif`}}> Our Work </HeadStyle>
-                  </Link>
+                  {/* </Link> */}
                   
             
                 </ColumnStyle3>
                 <ColumnStyle4>
-                  <div class='logo'>
+                  <div class='footerlogo'>
                     <Image src={Logo}/>
                   </div>
                 </ColumnStyle4>
@@ -101,7 +101,7 @@ const AppContainer = styled.div`
   align-items: center
   width: 100%;
   background-color: 
-  ${colors.darkBlue}!important;
+  black !important;
 `;
 
 const ColumnStyle1 = styled.div`

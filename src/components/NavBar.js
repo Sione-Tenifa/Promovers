@@ -5,13 +5,13 @@ import Nav from 'react-bootstrap/Nav'
 import {Link,} from 'react-router-dom'
 import './navbar.css'
 import {Image,} from 'semantic-ui-react'
-import Logo from '../Images/Proheader.jpeg'
+import Logo from '../Images/whitepro.jpeg'
 
 class NavBar extends React.Component {
   render() {
     return (
       <>
-      <Navbar class='navbar' collapseOnSelect expand="md" bg="dark" variant="dark">
+      <Navbar class='navbar' collapseOnSelect expand="md" >
         <Link to='/'>
         <Navbar.Brand>Pro Movers</Navbar.Brand>
         </Link>
@@ -40,7 +40,7 @@ class NavBar extends React.Component {
             {/* </Link> */}
 
             <Nav.Link eventKey={2} >
-              Call 801-910-4715
+              Call John 801-381-9920
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

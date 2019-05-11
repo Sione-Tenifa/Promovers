@@ -42,7 +42,7 @@ const AppContainer = styled.div`
   width: 100%;
 `;
 const Navbottom = styled.div`
-  background: #2d4d7f;
+  background: black;
   height: 100% ;
   background-position: center;
   background-repeat: no-repeat;
